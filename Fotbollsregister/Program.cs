@@ -18,9 +18,14 @@ namespace Fotbollsregister
             public int tröjNummer;
             public string lag;
 
+            public string Sort()
+            {
+                return spelarNamn + ålder;
+            }
+
         }
 
-        public static Spelare[] spelarArray;      
+        public static Spelare[] spelarArray;
 
 
         static void Main(string[] args)       
@@ -79,7 +84,7 @@ namespace Fotbollsregister
             Console.WriteLine("╠══════════════════════════════════════════╣");
             Console.WriteLine("║ Välj en åtgärd:                          ║");
             Console.WriteLine("║                                          ║");
-            Console.WriteLine("║ 1. Skriv ut alla spelare                 ║");
+            Console.WriteLine("║ 1. Skriv ut alla spelare (sorterat)      ║");
             Console.WriteLine("║ 2. Lägg till en spelare                  ║");
             Console.WriteLine("║ 3. Ta bort en spelare                    ║");
             Console.WriteLine("║ 4. Ändra lagnummer på spelare            ║");
@@ -187,6 +192,7 @@ namespace Fotbollsregister
         public static void VisaAllaSpelare() // Visa alla spelare från txt filen
         {
             int index = 0;
+            Array.Sort(spelarArray, (x, y) => x.Sort().CompareTo(y.Sort())); //arraysort för struct på Spelarnamn
             foreach (Spelare spelare in spelarArray)
             {
                 Console.WriteLine("╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗");

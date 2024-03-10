@@ -1,0 +1,7 @@
+C:\Users\ricar\source\repos\Fotbollsregister\Fotbollsregister\bin\Debug\Fotbollsregister.exe.config
+C:\Users\ricar\source\repos\Fotbollsregister\Fotbollsregister\bin\Debug\Fotbollsregister.exe
+C:\Users\ricar\source\repos\Fotbollsregister\Fotbollsregister\bin\Debug\Fotbollsregister.pdb
+C:\Users\ricar\source\repos\Fotbollsregister\Fotbollsregister\obj\Debug\Fotbollsregister.csproj.AssemblyReference.cache
+C:\Users\ricar\source\repos\Fotbollsregister\Fotbollsregister\obj\Debug\Fotbollsregister.csproj.CoreCompileInputs.cache
+C:\Users\ricar\source\repos\Fotbollsregister\Fotbollsregister\obj\Debug\Fotbollsregister.exe
+C:\Users\ricar\source\repos\Fotbollsregister\Fotbollsregister\obj\Debug\Fotbollsregister.pdb

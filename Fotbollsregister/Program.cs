@@ -226,6 +226,8 @@ namespace Fotbollsregister
             int spelarNummer;
             if (int.TryParse(Console.ReadLine(), out spelarNummer))
             {
+                
+                spelarNummer -= 1; // Dra bort 1 för att matcha 0-baserad indexering
                 if (spelarNummer >= 0 && spelarNummer < spelarArray.Length) // Kontrollera om indexet är inom arrayens gränser
                 {
                     Spelare[] nySpelarArray = new Spelare[spelarArray.Length - 1]; // Skapa en ny array med ett element mindre än den befintliga arrayen
